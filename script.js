@@ -1,6 +1,6 @@
 // Initialize EmailJS with your User ID
 (function() {
-    emailjs.init("public_OaOakucM_YHYVre8l");  // Replace 'your_user_id' with your actual User ID from EmailJS
+    emailjs.init("OaOakucM_YHYVre8l");  // Replace 'your_user_id' with your actual User ID from EmailJS
 })();
 
 document.getElementById("contact-form").addEventListener("submit", function(event) {
