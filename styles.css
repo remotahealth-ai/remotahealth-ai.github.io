@@ -1,0 +1,182 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2f2f2f;
+  padding: 1rem 2rem;
+}
+
+nav .logo img {
+  height: 50px;
+}
+
+nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav .nav-links li {
+  display: inline-block;
+}
+
+nav .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+nav .cta a {
+  background-color: #f04e31;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Header Section */
+header {
+  background: url('header-background.jpg') no-repeat center center/cover;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .header-content {
+  position: relative;
+  z-index: 1;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #f04e31;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.cta-button:hover {
+  background-color: #d93e21;
+}
+
+/* Features Section */
+#features {
+  background-color: #f9f9f9;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#features .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#features h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.feature-item {
+  margin-bottom: 2rem;
+}
+
+.feature-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* About Section */
+#about {
+  padding: 4rem 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+#about .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #f9f9f9;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#contact .container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact button {
+  padding: 1rem 2rem;
+  background-color: #f04e31;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #d93e21;
+}
+
+/* Footer */
+footer {
+  background-color: #2f2f2f;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
